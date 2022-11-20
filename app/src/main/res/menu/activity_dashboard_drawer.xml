@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Elemento1"
+            android:title="Elemento1" />
+        <item
+            android:id="@+id/Elemento2"
+            android:title="Elemento2" />
+        <item
+            android:id="@+id/Elemento3"
+            android:title="Elemento3" />
+    </group>
+</menu>

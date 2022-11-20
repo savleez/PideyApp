@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterRestaurantActivity">
+
+    <Button
+        android:id="@+id/btnRegisterCrear3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#E30613"
+        android:text="@string/btnRegisterCrear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/chkRegisterTerminosCondiciones3"
+        app:layout_constraintTop_toBottomOf="@+id/chkRegisterTerminosCondiciones3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/lblRegisterRestaurant"
+        android:textColor="#E30613"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegisterNombreR"
+        app:layout_constraintStart_toStartOf="@+id/txtRegisterNombreR"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/txtRegisterNombreR"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="11dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtRegisterNombreR"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegisterDireccionR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/txtRegisterDireccionR"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtRegisterDireccionR"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegisterTelefonoR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegisterNombreR" />
+
+    <EditText
+        android:id="@+id/txtRegisterEmailR"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="4dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtRegisterEmailR"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegisterPasswordR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegisterTelefonoR" />
+
+    <CheckBox
+        android:id="@+id/chkRegisterTerminosCondiciones3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/chkTerminosyCondiciones"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegisterCrear3"
+        app:layout_constraintStart_toStartOf="@+id/txtRegisterPasswordR"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegisterPasswordR" />
+
+    <EditText
+        android:id="@+id/txtRegisterTelefonoR"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="3dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtRegisterTelefonoR"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegisterEmailR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegisterDireccionR" />
+
+    <EditText
+        android:id="@+id/txtRegisterPasswordR"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtRegisterPasswordR"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/chkRegisterTerminosCondiciones3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegisterEmailR" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Logo_pideyapp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -110,6 +110,6 @@
         android:layout_marginTop="66dp"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Logo_pideyapp" />
+        app:srcCompat="@drawable/logopideyapp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

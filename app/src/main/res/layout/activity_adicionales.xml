@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionalesActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logopideyapp" />
+
+    <EditText
+        android:id="@+id/editTextNombrePlato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Producto"
+        android:textColor="#F60000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/textSalsas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elige Salsas"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/textBebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bebidas"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <RadioButton
+        android:id="@+id/BotonSelectB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bebida 1"
+        app:layout_constraintStart_toStartOf="@+id/BotonSelectB2"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <RadioButton
+        android:id="@+id/botonSelectBcola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:text="Coca Cola"
+        app:layout_constraintStart_toStartOf="@+id/BotonSelectB2"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <RadioButton
+        android:id="@+id/botonSelectB3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:text="Coca Cola"
+        app:layout_constraintStart_toStartOf="@+id/BotonSelectB2"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <RadioButton
+        android:id="@+id/BotonSelectScasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salsa de la Casa"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <RadioButton
+        android:id="@+id/botonSelectSmaizD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salsa Maiz Dulce"
+        app:layout_constraintStart_toStartOf="@+id/BotonSelectScasa"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <RadioButton
+        android:id="@+id/BotonSelectB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manzana"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <RadioButton
+        android:id="@+id/botonSelectB4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manzana"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

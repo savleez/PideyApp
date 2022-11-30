@@ -130,6 +130,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Logo_pideyapp" />
+        app:srcCompat="@drawable/logopideyapp" />
+
+    <ListView
+        android:id="@+id/RegistroUser"
+        android:layout_width="414dp"
+        android:layout_height="76dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="565dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

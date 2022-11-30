@@ -9,7 +9,7 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class RegisterRestaurantActivity extends AppCompatActivity {
+public class AdicionalesActivity extends AppCompatActivity {
 
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
@@ -17,7 +17,7 @@ public class RegisterRestaurantActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_restaurant);
+        setContentView(R.layout.activity_adicionales);
         inicializarfirebase();
     }
 

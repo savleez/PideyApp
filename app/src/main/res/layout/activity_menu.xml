@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logopideyapp" />
+
+    <EditText
+        android:id="@+id/editTextNomRest"
+        android:layout_width="332dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre Restaurante"
+        android:textColor="#F60000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <EditText
+        android:id="@+id/editTextNomPlato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="20dp"
+        android:text="Producto"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/editTextDescripProducto"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <EditText
+        android:id="@+id/editTextDescripProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="15dp"
+        android:text="Descripcion"
+        android:textColor="#757575"
+        app:layout_constraintStart_toStartOf="@+id/editTextPecio"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <EditText
+        android:id="@+id/editTextPecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="20dp"
+        android:text="Precio"
+        android:textColor="#757575"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <EditText
+        android:id="@+id/editTextNomPlato2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="20dp"
+        android:text="Producto"
+        android:textColor="#757575"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/editTextDescripProducto"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/editTextDescripProducto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="15dp"
+        android:text="Descripcion"
+        android:textColor="#757575"
+        app:layout_constraintStart_toStartOf="@+id/editTextPecio"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <EditText
+        android:id="@+id/editTextPecio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="20dp"
+        android:text="Precio"
+        android:textColor="#757575"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="123dp"
+        android:layout_height="128dp"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="196dp"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="123dp"
+        android:layout_height="128dp"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="367dp"
+        tools:src="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/BotonRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E30613"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="159dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

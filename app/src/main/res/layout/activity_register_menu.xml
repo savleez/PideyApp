@@ -51,5 +51,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Logo_pideyapp" />
+        app:srcCompat="@drawable/logopideyapp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

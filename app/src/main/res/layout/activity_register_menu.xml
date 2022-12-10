@@ -26,6 +26,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginBottom="29dp"
         android:backgroundTint="#E30613"
+        android:onClick="usuario"
         android:text="@string/btnRegisterUser"
         app:layout_constraintBottom_toTopOf="@+id/btnRegisterRestaurant"
         app:layout_constraintStart_toStartOf="@+id/btnRegisterRestaurant" />
@@ -36,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="97dp"
         android:backgroundTint="#E30613"
+        android:onClick="restaurante"
         android:text="@string/btnRegisterRestaurant"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

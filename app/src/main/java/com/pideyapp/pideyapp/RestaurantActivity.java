@@ -28,6 +28,12 @@ public class RestaurantActivity extends AppCompatActivity {
         startActivity(vermenu);
     }
 
+    public void btnregresar (View view){
+        Intent BotonRegresar = new Intent(this,RegisterMenuActivity.class);
+        startActivity(BotonRegresar);
+
+    }
+
     private void inicializarfirebase(){
         FirebaseApp.initializeApp(this);
         firebaseDatabase = FirebaseDatabase.getInstance();

@@ -5,7 +5,7 @@
     <string name="lblLogin">Inicia Sesión</string>
     <string name="lblEmail">Email</string>
     <string name="txtEmail">Ingrese su email</string>
-    <string name="lblPassword">Email</string>
+    <string name="lblPassword">Contraseña</string>
     <string name="txtPassword">Ingrese su contraseña</string>
     <string name="btnLogin">Ingresar</string>
     <string name="btnRegister">Registrarme</string>
@@ -18,15 +18,17 @@
     <string name="lblRegisterUser">Usuario</string>
     <string name="txtRegisterNombres">Nombres</string>
     <string name="txtRegisterApellidos">Apellidos</string>
+    <string name="txtRegisterDocumento">Documento</string>
     <string name="txtRegisterTelefono">Teléfono</string>
     <string name="txtRegisterEmail">Email</string>
     <string name="txtRegisterPassword">Contraseña</string>
+    <string name="txtRegisterPassword2">Repita la contraseña</string>
     <string name="chkTerminosyCondiciones">Acepto los términos y condiciones</string>
     <string name="btnRegisterCrear">Crear cuenta</string>
 
     <string name="lblRegisterRestaurant">Restaurante</string>
     <string name="txtRegisterNombreR">Nombre</string>
-    <string name="txtRegisterDireccionR">Dirección</string>
+    <string name="txtRegisterCiudadR">Ciudad</string>
     <string name="txtRegisterTelefonoR">Teléfono</string>
     <string name="txtRegisterEmailR">Email</string>
     <string name="txtRegisterPasswordR">Contraseña</string>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "888824154473",
+    "firebase_url": "https://pideyapp-dec7f-default-rtdb.firebaseio.com",
+    "project_id": "pideyapp-dec7f",
+    "storage_bucket": "pideyapp-dec7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888824154473:android:9185183c708f1fad8e95f8",
+        "android_client_info": {
+          "package_name": "com.pideyapp.pideyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888824154473-crf1q0nol3os6271sahvat56jl8pq59m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pideyapp.pideyapp",
+            "certificate_hash": "c586001925c5521d4f128dfa145b1973f6a26d48"
+          }
+        },
+        {
+          "client_id": "888824154473-k3o9ibogs9h8lt9n15ovd6rkijpmevud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pideyapp.pideyapp",
+            "certificate_hash": "6981e33f4ec3db920537857c961a0d1871235a98"
+          }
+        },
+        {
+          "client_id": "888824154473-udlrmls8289j02s6u18med23i4fsal78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA70HE7OZYnRW7oorDCRGIo2tqXOsSp9jU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888824154473-udlrmls8289j02s6u18med23i4fsal78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,13 +5,10 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/Elemento1"
-            android:title="Elemento1" />
+            android:id="@+id/menuOpcionPerfil"
+            android:title="Mi Perfil" />
         <item
-            android:id="@+id/Elemento2"
-            android:title="Elemento2" />
-        <item
-            android:id="@+id/Elemento3"
-            android:title="Elemento3" />
+            android:id="@+id/menuOpcionLogout"
+            android:title="Cerrar Sesión" />
     </group>
 </menu>

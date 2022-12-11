@@ -16,13 +16,13 @@ public class RegisterMenuActivity extends Activity {
     }
 
     public void btnUsuario(View view) {
-        Intent intent = new Intent(this, RegisterUserActivity.class);
-        startActivity(intent);
+        startActivity(new Intent(RegisterMenuActivity.this, RegisterUserActivity.class));
+        finish();
     }
 
     public void btnRestaurante(View view) {
-        Intent intent = new Intent(this, RegisterRestaurantActivity.class);
-        startActivity(intent);
+        startActivity(new Intent(RegisterMenuActivity.this, RegisterRestaurantActivity.class));
+        finish();
     }
 
 }

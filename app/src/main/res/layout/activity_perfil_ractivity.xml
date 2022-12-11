@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterUserActivity">
+    tools:context=".PerfilRActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,13 +13,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="70dp"
+            android:gravity="center_horizontal|fill_vertical"
             android:orientation="horizontal">
-
-            <Space
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -34,7 +30,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="10dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,49 +42,47 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="96dp"
-                android:layout_marginBottom="23dp"
-                android:text="@string/lblRegisterUser"
+                android:layout_marginBottom="15dp"
+                android:text="@string/lblRegisterRestaurant"
                 android:textColor="#FF0000"
                 android:textSize="28sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/txtRegisterNombres"
+                android:id="@+id/txtPerfilRNombre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:autofillHints=""
                 android:ems="10"
-                android:hint="@string/txtRegisterNombres"
+                android:hint="@string/txtRegisterNombreR"
                 android:inputType="textPersonName"
                 android:minHeight="48dp" />
 
             <EditText
-                android:id="@+id/txtRegisterApellidos"
+                android:id="@+id/txtPerfilRNit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:autofillHints=""
                 android:ems="10"
-                android:hint="@string/txtRegisterApellidos"
+                android:hint="NIT"
                 android:inputType="textPersonName"
                 android:minHeight="48dp" />
 
             <EditText
-                android:id="@+id/txtRegisterDocumento"
+                android:id="@+id/txtPerfilRCiudad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:autofillHints=""
                 android:ems="10"
-                android:hint="@string/txtRegisterDocumento"
+                android:hint="@string/txtRegisterCiudadR"
                 android:inputType="number"
                 android:minHeight="48dp" />
 
             <EditText
-                android:id="@+id/txtRegisterTelefono"
+                android:id="@+id/txtPerfilRTelefono"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -99,7 +93,7 @@
                 android:minHeight="48dp" />
 
             <EditText
-                android:id="@+id/txtRegisterEmail"
+                android:id="@+id/txtPerfilREmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -110,7 +104,7 @@
                 android:minHeight="48dp" />
 
             <EditText
-                android:id="@+id/txtRegisterPassword"
+                android:id="@+id/txtPerfilRPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -121,35 +115,47 @@
                 android:minHeight="48dp"
                 android:textColorHint="#757575" />
 
-            <EditText
-                android:id="@+id/txtRegisterPassword2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:autofillHints=""
-                android:ems="10"
-                android:hint="@string/txtRegisterPassword2"
-                android:inputType="textPassword"
-                android:minHeight="48dp"
-                android:textColorHint="#757575" />
 
-            <CheckBox
-                android:id="@+id/chkRegisterTerminosCondiciones"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/chkTerminosyCondiciones" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btnRegisterCrear"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FF0000"
-                android:onClick="btnRegisterCrear"
-                android:text="@string/btnRegisterCrear"
-                android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/btnPerfilRActualizar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#FF0000"
+                    android:minHeight="48dp"
+                    android:onClick="btnRActualizar"
+                    android:text="Actualizar"
+                    android:textColor="@color/white" />
+
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btnPerfilREliminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="#FF0000"
+                    android:minHeight="48dp"
+                    android:onClick="btnREliminar"
+                    android:text="Eliminar Cuenta"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
